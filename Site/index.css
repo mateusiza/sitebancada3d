@@ -1,0 +1,537 @@
+
+
+body {
+    color: rgb(255, 154, 8);
+    background-image: linear-gradient(to bottom, #34aeff,#2f9aff,#2f9aff, #12dbff);
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-shadow: 10px 10px 20px rgba(22, 44, 104, 0.2);
+}
+
+
+.rodapesuperior{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+     
+}
+.topo1{
+    
+    margin-top: 0;
+    width: 100%;
+    margin-left: 0;
+    background-color: #1d95f7a8;
+    margin-right: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    padding: 0;   
+}
+.topo1 div p{
+    margin-top:0;
+    margin-bottom:0;
+    display: flex;
+    font-size: 14px;
+    color: rgba(196, 246, 255, 0.685);
+}
+.topo1 ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 0px;
+    font-size: 12px;
+    font-style: italic;
+    transition: all 0.2s ease-in-out;
+    margin: 0;
+    
+}
+.topo1 div ul li{
+    padding-left: 4%;
+    padding-right: 4%;
+    
+    justify-content: space-between;
+}
+.minimenu{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.instagram{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.instagram a{
+    margin: 0;
+    padding: 0;
+}
+.instagram img{
+    display: block;
+    width: 16px;
+    height: auto;
+    margin: 0;
+    padding: 3px;
+}
+.whatsapp{
+    margin: 0;
+    padding: 0;
+}
+.whatsapp a{
+    margin: 0;
+    padding: 0;
+}
+.whatsapp img{
+    display: block;
+    width: 16px;
+    height: auto;
+    margin: 0;
+    padding: 3px;
+}
+.menu{
+    display: block;
+    /*background-color: #34aeff;*/
+    /*background-color: #555555ee;*/
+    /*background-image: linear-gradient(to right,rgb(83, 83, 83),rgb(29, 114, 226),rgb(54, 54, 54));*/
+    background-image: linear-gradient(to right,rgba(80, 83, 85, 0.932),rgba(79, 112, 133, 0.97),rgba(80, 83, 85, 0.932));
+    top: 0;
+    left: 0;
+    width: 100%;
+    right: 0;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-weight: bolder;
+    border-bottom: 6px solid rgb(255, 154, 8);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+}
+.menu ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0.3%;
+    padding-left: 0;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    padding-bottom: 0.1%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    font-size: x-large;
+    font-style: italic;
+    transition: all 0.2s ease-in-out;
+    background-image: url(Imagens/TESTE\ TEXTURA\ MENU\ SITE7.png);
+    background-size: 1225px 75px; 
+    background-position: 300px -8px;
+    background-repeat: no-repeat;
+    
+    
+    
+    
+}
+.menu ul li{
+    align-items: center;
+    transition: all 0.175s ease-in-out;
+    justify-content: center;
+    
+}
+.liprojetosteste{
+    margin-left: -5.5%;
+    
+    
+}
+nav img{
+
+    width: 200px;
+    height: auto;
+    
+}
+.menu ul li:hover{
+
+    transform: scale(1.075);
+}
+
+.menu a{
+    -webkit-text-stroke: 0.5px #0025693d;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+
+header{
+    margin-top: 4.5%;
+    display: block;
+}
+
+header img{
+    display:block;
+    max-width: 100%;
+    height: auto;
+
+    border-top: 2px solid rgb(255, 154, 8);
+    border-bottom: 6px solid rgb(255, 154, 8);
+    transition: all 0.5s ease-in-out;
+    
+    
+  
+}
+header img:hover{
+    transition-delay: 1.25s;
+    transform: scale(1.015);
+          
+}
+
+
+
+.abaixobanner1{
+    display: block;
+    padding-top: 0;
+    margin-top: 0;
+    background-image:url(Imagens/Padrão400.png);
+    background-repeat:repeat;
+    background-size: 256px 256px; 
+ 
+}
+
+
+
+
+
+.center{
+    
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+   
+    
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    
+
+}
+
+
+
+.corpoutil1{
+
+    padding-top: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
+    display: flex;
+    flex-direction: column;
+}
+.corpoutil1 h1{
+   
+    -webkit-text-stroke: 1px #b150003f;
+    text-shadow: 15px 15px 25px rgba(27, 58, 94, 0.80);
+    
+}
+
+main{
+   
+
+    font-size:28px;
+    font-weight:400;
+}
+
+
+main section p{
+    line-height: 1.5;
+    color: white;
+}
+
+
+main h1{
+    margin-top: 0;
+    display: block;
+    text-align: center;
+    font-style: italic;
+}
+main h2{
+
+    margin-top: 3%;    
+
+}
+
+
+
+
+.section1{
+    align-content: space-around;
+    display: flex;
+    
+   
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  
+    
+}
+
+
+.section1 p{
+    margin-top: 2%;
+    text-indent: 4%;
+    
+}
+
+.Retrato1 img{
+    
+    transition: all 0.175s ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 440px;
+    height: auto;
+    border-radius: 100%;
+    border: 8px solid rgb(255, 154, 8);
+    box-shadow: 0px 0px 25px rgba(255, 149, 28, 0.596);
+
+}
+
+
+.Retrato1 img:hover{
+
+    transform: scale(1.1);
+
+}
+.tituloetexto2{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+
+}
+.tituloetexto2 h2{
+
+    text-align: center;
+    
+}
+
+.tituloetexto1{
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+}
+
+.tituloetexto1 h2{
+    
+    text-align: center;
+}
+
+.grupomascote3d{
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0),rgb(29, 114, 226),rgba(0, 0, 0, 0));
+    
+    display: flex;
+    
+}
+
+.grupoprodutos3d{
+    display: flex;
+    margin-top: 5%;
+    background-image: linear-gradient(to right,rgba(56, 56, 56, 0),rgba(56, 56, 56, 0.3),rgba(56, 56, 56, 0.696),rgba(56, 56, 56, 0.747),rgba(56, 56, 56, 0.696),rgba(56, 56, 56, 0.3),rgba(56, 56, 56, 0));
+}
+
+.section2{
+    align-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.Retrato2 img{
+    
+    transition: all 0.175s ease-in-out;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 440px;
+    height: auto;
+    border-radius: 100%;
+    border: 8px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.473);
+
+}
+
+footer{
+    border-top: 3px solid rgba(255, 255, 255, 0.459);
+    margin-top: 5%;
+    background-color: rgb(62, 88, 104);
+    margin-bottom: 0;
+    height: 127px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    opacity: 0.68;
+}
+.footerul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+    padding: 0;
+    margin-top: 0.5%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+}
+.logofooter img{
+
+    width: 180px;
+     height: auto;
+
+}
+.ulsociaisfooter{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+    padding: 0;
+    justify-content: center;
+}
+
+
+.ulsociaisfooter img{
+    width: 32px;
+    height: auto;
+}
+.ulsociaisfooter li{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+.textofooter{
+    margin-top: 0.5%;
+    font-size: 11px;
+    margin-bottom: 0;
+    color: aliceblue;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1366px) {
+
+
+    header{
+        margin-top: 6.4%;
+        
+    }
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 816px) {
+    
+    /*body {
+        
+    }
+    */
+    .menu ul{
+        font-size:larger;
+        background-position: 0px 0px;
+        background-size: 588px 36px;    
+    }
+    nav img{
+
+        width: 124px;
+        height: auto;
+        margin-top: 2px;
+    }
+    .corpoutil1 h1{
+
+        font-size:xx-large;
+    }
+
+    .section1{
+
+        flex-direction: column;
+    }
+    .section2{
+        flex-direction:column-reverse;
+    }
+    .section2 p{
+
+        font-size:large;
+    }
+    header{
+        margin-top: 15%;
+        display: block;
+    }
+    
+    .tituloetexto1 h2 {
+        font-size: 28px;
+    }
+    .tituloetexto2 h2 {
+        font-size: 28px;
+    }
+  
+    .Retrato1 img{
+        width: 300px;
+        height: auto;
+        border: 5px solid rgb(255, 154, 8);
+    }
+    .Retrato2 img{
+        width: 300px;
+        height: auto;
+    }
+    .topo1 div p{
+        
+        font-size: 10px;
+        
+    }
+    .section1 p{
+        font-size:large;
+        
+        
+    }
+    footer{
+
+        height: 115px;
+        
+    }
+    
+    .footerul{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        align-items: center;
+        padding: 0;
+        margin-top: 1.5%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        
+    }
+    .logofooter img{
+        margin-top: 2%;
+        width: 150px;
+        height: auto;
+    
+    }
+    
+    .ulsociaisfooter img{
+        width: 24px;
+        height: auto;
+    }
+    
+    .textofooter{
+        margin-top: 0;
+        font-size: 10px;
+        margin-bottom: 0;
+        color: aliceblue;
+        margin-bottom: 0;
+    }
+}
